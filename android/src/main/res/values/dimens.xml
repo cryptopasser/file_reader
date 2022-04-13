@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textView_normal_textSize_super_broad">22sp</dimen>
+    <dimen name="textView_normal_textSize_broad">18sp</dimen>
+    <dimen name="textView_normal_textSize_default">14sp</dimen>
+    <dimen name="textView_normal_textSize_narrow">12sp</dimen>
+    <dimen name="textView_normal_textSize_super_narrow">10sp</dimen>
+
+    <dimen name="line_normal_widthOrHeight_broad">3dp</dimen>
+    <dimen name="line_normal_widthOrHeight_default">1.5dp</dimen>
+    <dimen name="line_normal_widthOrHeight_narrow">1px</dimen>
+
+    <dimen name="view_normal_margin_broad">18dp</dimen>
+    <dimen name="view_normal_margin_default">12dp</dimen>
+    <dimen name="view_normal_margin_narrow">6dp</dimen>
+
+    <dimen name="base_view_narrow_margin_default">5dp</dimen>
+    <dimen name="base_view_normal_margin_default">10dp</dimen>
+    <dimen name="base_textView_normal_textSize_default">14sp</dimen>
+
+    <dimen name="radius_circle_broad">24dp</dimen>
+    <dimen name="radius_circle_default">16dp</dimen>
+    <dimen name="radius_circle_narrow">8dp</dimen>
+    <dimen name="radius_circle_super_narrow">4dp</dimen>
+
+    <dimen name="drawable_stroke_broad">2dp</dimen>
+    <dimen name="drawable_stroke_default">1dp</dimen>
+    <dimen name="drawable_stroke_narrow">1px</dimen>
+
+    <dimen name="triangle_width">20dp</dimen>
+    <dimen name="triangle_height">20dp</dimen>
+    <dimen name="triangle_height_leave">9.5dp</dimen>
+    <dimen name="triangle_height_leave_desc">-9.5dp</dimen>
+
+    <dimen name="statusView_width">36dp</dimen>
+
+    <dimen name="popupwindow_horizontal_margin">14dp</dimen>
+
+    <dimen name="layout_remark_operating_view_width">60dp</dimen>
+
+    <dimen name="button_normal_height_default">45dp</dimen>
+
+    <dimen name="layout_operating_height">56dp</dimen>
+    <dimen name="layout_pen_operating_right_view_width">122dp</dimen>
+    <dimen name="layout_pen_operating_circle_view_border_width">4dp</dimen>
+
+    <dimen name="layout_search_editTextSearch_height">40dp</dimen>
+
+    <dimen name="layout_search_appbar_default_search_margin_horizontal">70dp</dimen>
+
+    <dimen name="layout_read_mode_menu_item_height">60dp</dimen>
+
+    <dimen name="layout_read_mode_menu_icon_width">30dp</dimen>
+    <dimen name="layout_read_mode_menu_icon_height">24dp</dimen>
+
+    <dimen name="layout_read_mode_menu_item_icon_width">26dp</dimen>
+
+    <dimen name="activity_main_pdf_view_thumbnail_height">80dp</dimen>
+
+    <dimen name="view_menu_item_size">50dp</dimen>
+
+    <dimen name="activity_pdf_viewer_margin_right">24dp</dimen>
+    <dimen name="activity_pdf_viewer_extra_menu_margin_bottom">80dp</dimen>
+    <dimen name="popupwindow_instruct_pen_size_edit_height">20dp</dimen>
+    <dimen name="popupwindow_instruct_pen_size_edit_content_width">30dp</dimen>
+
+    <dimen name="popupwindow_instruct_linearLayout_suggestion_height">80dp</dimen>
+    <dimen name="popupwindow_instruct_draw_area_height">250dp</dimen>
+    <dimen name="popupwindow_instruct_operate_height">45dp</dimen>
+
+    <dimen name="popupwindow_instruct_history_list_view_height">250dp</dimen>
+
+    <dimen name="popupwindow_instruct_history_space_height">36dp</dimen>
+
+</resources>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">SPdfApplication</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="remark_change_tips">批注内容已修改,确认保存吗?</string>
+    <string name="tips">提示</string>
+    <string name="custom_exit_tips">正在同屏中,确认要退出?</string>
+
+    <string name="file_not_exists">文件不存在</string>
+    <string name="file_format_error">路径格式不正确</string>
+    <string name="file_download_error">文件下载失败</string>
+
+    <string name="activity_main_page_tips">页码:</string>
+    <string name="activity_main_remark">批注</string>
+
+    <string name="activity_file_viewer_button_open_doc">打开 doc</string>
+    <string name="activity_file_viewer_button_open_ppt">打开 ppt</string>
+    <string name="activity_file_viewer_button_open_excel">打开 excel</string>
+    <string name="activity_file_viewer_button_open_ofd">打开 ofd</string>
+    <string name="activity_file_viewer_button_open_other">其他文件格式</string>
+
+    <string name="page_title">页面:</string>
+
+    <string name="layout_pen_operating_cancel">取消</string>
+    <string name="layout_pen_operating_ok">保存</string>
+
+    <string name="popupwindow_operating_delete_line">删除线</string>
+    <string name="popupwindow_operating_under_line">下划线</string>
+    <string name="popupwindow_operating_under_wave_line">波浪线</string>
+    <string name="popupwindow_operating_high_light">高亮</string>
+    <string name="popupwindow_operating_clear">清屏</string>
+
+    <string name="request_permission">清屏</string>
+    <string name="permission_request_rationale">是否允许程序请求文件读取权限</string>
+    <string name="permission_request_ok">确定</string>
+    <string name="permission_request_cancel">取消</string>
+    <string name="permission_request_open_setting_tips">需要文件读取权限以正常使用软件,请在设置中开启</string>
+
+    <string name="layout_search_appbar_default_search_hint">请输入搜索内容</string>
+    <string name="layout_search_appbar_search_cancel">取消</string>
+
+    <string name="layout_search_search_button">搜索</string>
+
+    <string name="layout_bottom_menu_book_mark">大纲</string>
+    <string name="layout_bottom_menu_pen">批注</string>
+    <string name="layout_bottom_menu_text">文字</string>
+    <string name="layout_bottom_menu_more">更多</string>
+
+    <string name="popupwindow_read_mode_read_title">阅读</string>
+    <string name="popupwindow_read_mode_item_single">左右翻页</string>
+    <string name="popupwindow_read_mode_item_multi">上下翻页</string>
+    <string name="popupwindow_read_mode_item_thumbnail">缩略图</string>
+    <string name="popupwindow_read_mode_item_night">夜间模式</string>
+    <string name="popupwindow_read_mode_item_auto_fill_white_space">自动裁剪白边</string>
+
+    <string name="activity_thumbnail_title">缩略图</string>
+
+    <string name="activity_file_viewer_search_result_empty">暂无匹配搜索结果</string>
+
+    <string name="popupwindow_instruct_title">领导批示</string>
+    <string name="popupwindow_instruct_pen_size_text">画笔粗细</string>
+    <string name="popupwindow_instruct_pen_size_reduce_text">-</string>
+    <string name="popupwindow_instruct_pen_size_default_text">4.0</string>
+    <string name="popupwindow_instruct_pen_size_add_text">+</string>
+    <string name="popupwindow_instruct_reset_text">重置</string>
+    <string name="popupwindow_instruct_recover_text">撤销</string>
+    <string name="popupwindow_instruct_save_text">保存草稿</string>
+    <string name="popupwindow_instruct_commit_text">提交</string>
+    <string name="popupwindow_instruct_suggestion_text">办公室拟办意见</string>
+    <string name="popupwindow_instruct_history_title">批示列表</string>
+
+    <string name="activity_pdf_viewer_pre_page_text">上一页</string>
+    <string name="activity_pdf_viewer_next_page_text">下一页</string>
+
+    <string name="layout_pen_operating_pen_size_default_text">1.0</string>
+
+</resources>

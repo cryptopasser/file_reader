@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_operating_height"
+    android:layout_gravity="bottom"
+    android:background="@color/layout_pen_operating_background"
+    android:orientation="horizontal">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutPenColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/view_normal_margin_narrow"
+                android:layout_marginRight="@dimen/view_normal_margin_narrow"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutPenSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/view_normal_margin_narrow"
+                android:layout_marginRight="@dimen/view_normal_margin_narrow"
+                android:background="@color/popupwindow_instruct_stroke_background"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewReduce"
+                    android:layout_width="@dimen/popupwindow_instruct_pen_size_edit_height"
+                    android:layout_height="@dimen/popupwindow_instruct_pen_size_edit_height"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/popupwindow_instruct_pen_size_reduce_text"
+                    android:textColor="@color/mainColorHelp_default"
+                    android:textSize="@dimen/textView_normal_textSize_default" />
+
+                <FrameLayout
+                    android:layout_width="@dimen/popupwindow_instruct_pen_size_edit_content_width"
+                    android:layout_height="@dimen/popupwindow_instruct_pen_size_edit_height"
+                    android:background="@drawable/popupwindow_instruct_stroke_background">
+
+                    <TextView
+                        android:id="@+id/textViewSizeContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/layout_pen_operating_pen_size_default_text"
+                        android:textColor="?attr/mainColorText"
+                        android:textSize="@dimen/textView_normal_textSize_narrow" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textViewAdd"
+                    android:layout_width="@dimen/popupwindow_instruct_pen_size_edit_height"
+                    android:layout_height="@dimen/popupwindow_instruct_pen_size_edit_height"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/popupwindow_instruct_pen_size_add_text"
+                    android:textColor="@color/mainColorHelp_default"
+                    android:textSize="@dimen/textView_normal_textSize_default" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="@dimen/layout_pen_operating_right_view_width"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right|center_vertical"
+            android:padding="@dimen/view_normal_margin_narrow"
+            android:text="@string/layout_pen_operating_cancel"
+            android:textColor="@color/mainColorHelp_default"
+            android:textSize="@dimen/textView_normal_textSize_default" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textViewSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/view_normal_margin_default"
+            android:layout_weight="3"
+            android:gravity="left|center_vertical"
+            android:padding="@dimen/view_normal_margin_narrow"
+            android:text="@string/layout_pen_operating_ok"
+            android:textColor="@color/mainColorHelp_default"
+            android:textSize="@dimen/textView_normal_textSize_default" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

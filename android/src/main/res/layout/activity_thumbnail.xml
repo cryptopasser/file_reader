@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ThumbnailActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_normal_margin_narrow"
+            android:padding="@dimen/view_normal_margin_narrow"
+            android:tint="@color/darkColor_default"
+            android:src="@mipmap/normal_back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="@string/activity_thumbnail_title"
+            android:textColor="@color/darkColor_default"
+            android:textSize="@dimen/textView_normal_textSize_broad" />
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayoutToolbar">
+
+        <com.snakeway.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/activity_thumbnail_background"
+            android:padding="@dimen/view_normal_margin_narrow"
+            />
+
+<!--        <GridView-->
+<!--            android:id="@+id/gridView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@color/activity_thumbnail_background"-->
+<!--            android:horizontalSpacing="@dimen/view_normal_margin_default"-->
+<!--            android:numColumns="3"-->
+<!--            android:padding="@dimen/view_normal_margin_default"-->
+<!--            android:stretchMode="columnWidth"-->
+<!--            android:verticalSpacing="@dimen/view_normal_margin_default" />-->
+
+    </FrameLayout>
+
+
+</RelativeLayout>
